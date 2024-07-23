@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-family: "Manjari", sans-serif;
+}
+.container{
+    max-width: 1024px;
+    width: 95%;
+    margin: 0 auto;   
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 0em;
+    font-weight: 100;
+}
+nav{
+    font-size: 1.2em;
+}
+#nav-sobre{
+    margin-right: 5em; 
+}
+#logo{
+    width: 10em ;
+    padding-bottom: 1.5em;
+}
+.sacola{
+    width: 2em;
+    padding-bottom: 1em;
+}
+#sacola-mobile{
+    display: none;
+}
+
+h1{
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    font-weight: 700;
+}
+#sobre{
+    display: flex;
+    margin-bottom: 4em;
+    text-align: justify;
+}
+#sobre div{
+    padding-left: 2em;
+}
+#sobre img{
+    width: 40%;
+}
+#sobre p{
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+#produtos{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    row-gap: 5%;
+    column-gap: 2%;
+}
+.produto{
+width: 100%;
+text-align: end;
+}
+.produto h2{
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+}
+.produto img{
+    
+    width: 100%;
+}
+.valor{
+    text-align: right;
+    margin: 0.5em 0em;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.button-add{
+    cursor: pointer;
+    width: 100%;
+    padding: 1em;
+    background-color: black;
+    color: #ffff;
+    border-radius: 15px;
+}
+.button-add:hover{
+    background-color: #ffff;
+    color: black;
+}
+
+footer{
+    font-family: "Playfair Display", serif; 
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+    display: block;
+    text-align: center;
+}
+footer a{
+    color: #999393;
+}
+
+/*TABLET*/
+@media screen  and (min-width: 641px)and (max-width:1023px) {
+
+    .container{
+        max-width: 90%;
+    }
+    header{
+        padding: 1em 0em 0em 0em;
+    }
+
+    h1{
+        margin-bottom: 0.2em;
+        font-size: 1.5em;
+    }
+    #sobre{
+        display: block;
+        margin-bottom: 2em;
+    }
+    #sobre div p{
+        font-size:1.2em;
+    }
+    #sobre img{
+        width: 100%;
+        max-height: 30%;
+        text-align: center;
+        margin-bottom: 0.3em;
+    }
+    #sobre div{
+        padding-left: 0em;
+        padding-top: 0.5em;
+    }
+    #produtos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 2%;
+        column-gap: 2%;
+    }
+    .produto img{
+        min-width: 100%;
+        
+    }
+
+    footer{
+        padding-top: 5em;
+    }
+}
+
+
+
+/*CELULAR*/
+@media screen and (max-width: 640px) {
+    .container{
+        max-width: 80%;
+    }
+    #mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header{
+        display: block;
+        text-align: center;
+        max-width: 50%;
+        padding: 1em 0em 0.9em 0em;
+        
+    }
+    header .container{
+        max-width: 50%;
+    }
+    #sacola-geral{
+        display: none;
+    }
+    #sacola-mobile{
+        display: block;
+        height: 3em;
+    }
+
+    h1{
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+    }
+    #sobre{
+        display: block;
+        text-align: justify;
+        margin-bottom: 1.5em;
+    }
+    #sobre div p{
+        font-size:1.2em;
+    }
+    #sobre img{
+        width: 100%;
+        margin-bottom: 0.3em;
+    }
+    #sobre div{
+        padding-left: 0em;
+        padding-top: 0.5em;
+    }
+    #produtos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        row-gap: 1%;
+    }
+    .produto img{
+        min-width: 100%;
+        
+    }
+
+        footer{
+        padding-top: 6em;
+    }
+
+}
