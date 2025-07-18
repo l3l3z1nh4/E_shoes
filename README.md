@@ -13,19 +13,16 @@ Uma loja virtual de calçados com layout responsivo, apresentando uma seção "S
 
 ## ⚙️ Funcionalidades
 
-Explore os principais recursos deste e-commerce:
-
 -   **Layout Responsivo:** Adapta-se automaticamente a diferentes tamanhos de tela (desktop, tablet, mobile).
 -   **Seção "Sobre a Loja":** Apresenta informações da loja com texto e imagem em um layout de duas colunas.
 -   **Vitrine de Produtos:** Exibe uma listagem de 4 produtos com imagem, nome, descrição e um botão "Adicionar ao Carrinho".
--   **Navegação Simplificada:** Estrutura clara para facilitar a exploração dos produtos.
 
 ---
 
 ## 🌐 Demonstração - [Link para o Projeto Online](https://e-shoes-iota.vercel.app/#)
 
 
-![Preview da Loja Virtual E-Shoes](./assets/preview.png)
+![Preview da Loja Virtual E-Shoes](/assets/e_shoes_print.png)
 *A imagem acima mostra a interface da loja virtual E-Shoes em funcionamento.*
 
 ---
